@@ -3,7 +3,7 @@ info:
   title: Potato
   version: One
 servers:
-  - url: https://api.potat.app
+  - url: https://api.potat.co
 paths:
   /twitch/badges:
     get:

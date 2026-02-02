@@ -1,6 +1,6 @@
 openapi: 3.0.0
 servers:
-  - url: https://api.potat.app
+  - url: https://api.potat.co
 paths:
   /twitch/badges:
     get:
