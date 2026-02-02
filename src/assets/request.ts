@@ -2,7 +2,7 @@
 // eslint-disable-next-line import/extensions
 import { ExtendedOptions, GenericResponse, ParsedRes } from '../types/request';
 
-export const API_BASE = import.meta.env.VITE_API_BASE ?? 'https://api.potat.app';
+export const API_BASE = import.meta.env.VITE_API_BASE ?? 'https://api.potat.co';
 
 async function parseResponse<T>(res: Response): Promise<ParsedRes<T>> {
   const blob = await res.blob();
